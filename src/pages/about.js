@@ -4,7 +4,7 @@ import Footer from "../components/footer"
 
 export default () => (
   <div style={{ color: `teal` }}>
-    <Header />
+    <Header headerText="Props running properly." />
     <p>Made with love.</p>
     <Footer />
   </div>

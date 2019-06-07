@@ -1,7 +1,9 @@
 import React from "react"
+import Navigation from "../components/navigation"
 
-export default () => (
+export default props => (
   <header>
-    <h1>This is a header.</h1>
+    <Navigation />
+    <h1>{props.headerText}</h1>
   </header>
 )
