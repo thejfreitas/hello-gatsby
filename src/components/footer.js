@@ -2,6 +2,12 @@ import React from "react"
 
 export default () => (
   <footer>
-    <p>This is a footer.</p>
+    <div className="container">
+      <div className="row">
+        <div className="col-12">
+          <p>This is a footer.</p>
+        </div>
+      </div>
+    </div>
   </footer>
 )
