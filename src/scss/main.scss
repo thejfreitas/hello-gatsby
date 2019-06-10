@@ -1,16 +1,3 @@
-html {
-  font-size: 65.5%;
-}
-
-body {
-  font-size: 1.6rem;
-  background-color: aliceblue;
-}
-
-.my-auto {
-  margin-top: auto !important;
-}
-
-.h-100 {
-  height: 100% !important;
-}
+@import "variables.scss";
+@import "mixins.scss";
+@import "global.scss";
