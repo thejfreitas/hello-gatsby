@@ -2,17 +2,13 @@ import React from "react"
 import Navigation from "../components/navigation"
 
 export default props => (
-  <header>
-    <div className="container">
-      <div className="row">
-        <div className="col-12">
-          <Navigation />
-        </div>
+  <header className="grid-container">
+    <div className="grid-x">
+      <div className="cell medium-6 large-4">
+        <Navigation />
       </div>
-      <div className="row">
-        <div className="col-12">
-          <h1>{props.headerText}</h1>
-        </div>
+      <div className="cell medium-6 large-8">
+        <h1>{props.headerText}</h1>
       </div>
     </div>
   </header>

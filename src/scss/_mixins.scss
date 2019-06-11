@@ -1,3 +1,7 @@
 @mixin default-transition {
   transition: all ease 0.3s;
 }
+
+@mixin default-text {
+  text-align: left;
+}

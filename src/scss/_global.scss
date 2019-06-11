@@ -1,9 +1,9 @@
 html {
-  font-size: 65.5%;
+  font-size: $global_font_size;
 }
 
 body {
-  font-size: 1.6rem;
+  font-size: $user_agent_font_size;
   background-color: antiquewhite;
   @include default-transition;
 }
