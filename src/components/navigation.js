@@ -10,6 +10,9 @@ export default () => (
       <Link to="/about/">
         <li>About</li>
       </Link>
+      <Link to="/about-css-modules/">
+        <li>CSS Modules</li>
+      </Link>
     </ul>
   </nav>
 )
