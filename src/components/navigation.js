@@ -13,6 +13,9 @@ export default () => (
       <Link to="/about-css-modules/">
         <li>CSS Modules</li>
       </Link>
+      <Link to="/my-files/">
+        <li>My Files</li>
+      </Link>
     </ul>
   </nav>
 )

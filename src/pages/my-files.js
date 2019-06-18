@@ -4,7 +4,6 @@ import Header from "../components/header"
 import Footer from "../components/footer"
 
 export default ({ data }) => {
-  console.log(data)
   return (
     <div>
       <Header headerText="My Files" />
