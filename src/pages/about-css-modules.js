@@ -4,6 +4,8 @@ import Container from "../components/container"
 import styles from "../css/container.module.css"
 import Header from "../components/header"
 
+import { graphql } from "gatsby"
+
 const User = props => (
   <div className={styles.moduleTwo}>
     <img src={props.avatar} className={styles.avatar} alt={props.username} />
@@ -14,12 +16,12 @@ const User = props => (
   </div>
 )
 
-export default () => (
+export default ({ data }) => (
   <div>
-    <Header headerText="CSS Modules." />
+    <Header headerText={data.site.siteMetadata.whatever} />
     <Container>
-      <h1>This is about css modules</h1>
-      <p>This is an example</p>
+      <h1>This is about css modules - {data.site.siteMetadata.title}</h1>
+      <p>{data.site.siteMetadata.whatever}</p>
       <User
         username="J de Freitas"
         avatar="https://source.unsplash.com/random/50x50"
@@ -28,3 +30,14 @@ export default () => (
     </Container>
   </div>
 )
+
+export const query = graphql`
+  query {
+    site {
+      siteMetadata {
+        title
+        whatever
+      }
+    }
+  }
+`

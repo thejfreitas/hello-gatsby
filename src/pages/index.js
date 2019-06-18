@@ -4,7 +4,7 @@ import Footer from "../components/footer"
 import "../scss/main.scss"
 
 export default () => (
-  <div>
+  <div style={{ margin: `3rem auto` }}>
     <Header headerText="Welcome." />
     <section className="grid-container">
       <div className="grid-x">
