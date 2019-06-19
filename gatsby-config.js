@@ -7,7 +7,7 @@
 module.exports = {
   siteMetadata: {
     title: `Title from siteMetadata`,
-    whatever: `Whatever`,
+    whatever: `This is a title from metadata`,
   },
   plugins: [
     `gatsby-plugin-sass`,
