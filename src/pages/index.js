@@ -5,7 +5,7 @@ import { Link, graphql } from "gatsby"
 
 export default ({ data }) => (
   <div style={{ margin: `3rem auto` }}>
-    <Layout>
+    <Layout headerText="Index">
       <h1>Hello Gatsby!</h1>
       <h2>We have a total of {data.allMarkdownRemark.totalCount} posts</h2>
       {data.allMarkdownRemark.edges.map(({ node }) => (

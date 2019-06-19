@@ -2,10 +2,10 @@ import React from "react"
 import Header from "../components/header"
 import Footer from "../components/footer"
 
-export default ({ children }) => {
+export default ({ children, headerText }) => {
   return (
     <div>
-      <Header headerText="Hardcoded header text" />
+      <Header headerText={headerText} />
       <section className="grid-container">
         <div className="grid-x">
           <div className="cell medium-12">{children}</div>

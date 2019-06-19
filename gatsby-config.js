@@ -25,5 +25,18 @@ module.exports = {
         path: `${__dirname}/src/`,
       },
     },
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `Gatsby Hello World`,
+        short_name: `Gatsby PWA`,
+        start_url: `/`,
+        background_color: `#faebd7`,
+        theme_color: `#faebd7`,
+        display: `standalone`,
+        icon: `src/img/icon.png`,
+      },
+    },
+    `gatsby-plugin-offline`,
   ],
 }
