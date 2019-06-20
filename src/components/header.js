@@ -5,6 +5,7 @@ import { Helmet } from "react-helmet"
 export default props => (
   <header className="grid-container">
     <Helmet>
+      <html lang="en" />
       <meta charSet="utf-8" />
       <title>{props.headerText}</title>
     </Helmet>
