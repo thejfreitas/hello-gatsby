@@ -1,8 +1,14 @@
 import React from "react"
 import Navigation from "../components/navigation"
+import { Helmet } from "react-helmet"
 
 export default props => (
   <header className="grid-container">
+    <Helmet>
+      <meta charSet="utf-8" />
+      <title>{props.headerText}</title>
+    </Helmet>
+
     <div className="grid-x">
       <div className="cell medium-6 large-4">
         <Navigation />
