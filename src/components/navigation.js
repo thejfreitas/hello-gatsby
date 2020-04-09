@@ -32,11 +32,6 @@ export default () => (
             </Link>
           </li>
           <li className="nav-item">
-            <Link className="nav-link" to="/about-css-modules/">
-              CSS Modules
-            </Link>
-          </li>
-          <li className="nav-item">
             <a className="nav-link" href="/my-files/">
               My Files
             </a>
