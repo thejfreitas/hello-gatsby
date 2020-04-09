@@ -11,7 +11,7 @@ export default props => {
       <Helmet>
         <html lang="en" />
         <meta charSet="utf-8" />
-        <title>{props.headerText}</title>
+        <title>{props.headerText} - Gatsby Hello World</title>
       </Helmet>
       <Navigation />
 
@@ -22,9 +22,6 @@ export default props => {
             <div className="col-lg-8 col-md-10 mx-auto">
               <div className="site-heading">
                 <h1>{props.headerText}</h1>
-                <span className="subheading">
-                  A Blog Theme by Start Bootstrap
-                </span>
               </div>
             </div>
           </div>

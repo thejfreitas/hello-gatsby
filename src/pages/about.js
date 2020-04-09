@@ -11,7 +11,7 @@ export default ({ data }) => (
       I started from the tutorial{" "}
       <a href="https://www.gatsbyjs.org/tutorial/part-one/">
         Get to Know Gatsby Building Blocks
-      </a>
+      </a>{" "}
       and then completing the following sections until the part eight.
     </p>
 

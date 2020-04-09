@@ -5,7 +5,7 @@ import Layout from "./layout"
 export default ({ data }) => {
   const post = data.markdownRemark
   return (
-    <Layout>
+    <Layout headerText={post.frontmatter.title}>
       <h1>{post.frontmatter.title}</h1>
       <div dangerouslySetInnerHTML={{ __html: post.html }} />
     </Layout>

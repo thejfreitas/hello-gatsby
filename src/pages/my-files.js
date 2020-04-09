@@ -4,7 +4,7 @@ import Layout from "../templates/layout"
 
 export default ({ data }) => {
   return (
-    <Layout>
+    <Layout headerText="All project's files">
       <p>
         In this page is used a source plugin this this{" "}
         <a href="https://www.gatsbyjs.org/tutorial/part-five/#source-plugins">
