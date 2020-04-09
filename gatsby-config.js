@@ -10,7 +10,6 @@ module.exports = {
     whatever: `This is a title from metadata`,
   },
   plugins: [
-    `gatsby-plugin-sass`,
     `gatsby-transformer-remark`,
     {
       resolve: `gatsby-source-filesystem`,

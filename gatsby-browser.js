@@ -1,2 +1,2 @@
-import "./src/css/foundation.css"
-import "./src/css/main.css"
+import "./node_modules/bootstrap/dist/css/bootstrap.min.css"
+import "./src/css/clean-blog.min.css"

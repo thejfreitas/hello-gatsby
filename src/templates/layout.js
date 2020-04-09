@@ -4,14 +4,10 @@ import Footer from "../components/footer"
 
 export default ({ children, headerText }) => {
   return (
-    <div>
+    <React.Fragment>
       <Header headerText={headerText} />
-      <section className="grid-container">
-        <div className="grid-x">
-          <div className="cell medium-12">{children}</div>
-        </div>
-      </section>
+      {children}
       <Footer />
-    </div>
+    </React.Fragment>
   )
 }
