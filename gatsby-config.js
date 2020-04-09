@@ -6,8 +6,8 @@
 
 module.exports = {
   siteMetadata: {
-    title: `Title from siteMetadata`,
-    whatever: `This is a title from metadata`,
+    title: `Gastby Hello World`,
+    description: `This is a hello-world website made in gastby and based on the tutorials provided by gatsby.org`,
   },
   plugins: [
     `gatsby-transformer-remark`,

@@ -33,7 +33,7 @@ export default () => (
           </li>
           <li className="nav-item">
             <a className="nav-link" href="/my-files/">
-              My Files
+              All Files
             </a>
           </li>
         </ul>
