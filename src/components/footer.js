@@ -17,23 +17,17 @@ export default () => {
             <ul className="list-inline text-center">
               <li className="list-inline-item">
                 <a href="https://twitter.com">
-                  <span className="fa-layers fa-fw">
-                    <FontAwesomeIcon icon={faTwitter} size="2x" />
-                  </span>
+                  <FontAwesomeIcon icon={faTwitter} size="2x" />
                 </a>
               </li>
               <li className="list-inline-item">
                 <a href="https://facebook.com">
-                  <span className="fa-layers fa-fw">
-                    <FontAwesomeIcon icon={faFacebook} size="2x" />
-                  </span>
+                  <FontAwesomeIcon icon={faFacebook} size="2x" />
                 </a>
               </li>
               <li className="list-inline-item">
                 <a href="https://github.com">
-                  <span className="fa-layers fa-fw">
-                    <FontAwesomeIcon icon={faGithub} size="2x" />
-                  </span>
+                  <FontAwesomeIcon icon={faGithub} size="2x" />
                 </a>
               </li>
             </ul>
