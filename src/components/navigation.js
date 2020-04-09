@@ -5,7 +5,7 @@ export default () => (
   <nav className="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
     <div className="container">
       <Link className="navbar-brand" to="/">
-        Start Bootstrap
+        Gatsby Hello World
       </Link>
       <button
         className="navbar-toggler navbar-toggler-right"
@@ -32,9 +32,9 @@ export default () => (
             </Link>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="/my-files/">
+            <Link className="nav-link" to="/my-files/">
               All Files
-            </a>
+            </Link>
           </li>
         </ul>
       </div>

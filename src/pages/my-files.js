@@ -5,13 +5,25 @@ import Layout from "../templates/layout"
 export default ({ data }) => {
   return (
     <Layout>
-      <table>
-        <thead>
+      <p>
+        In this page is used a source plugin this this{" "}
+        <a href="https://www.gatsbyjs.org/tutorial/part-five/#source-plugins">
+          tutorial
+        </a>
+        in order to research on each file in the project and display in this
+        page using{" "}
+        <a href="https://www.gatsbyjs.org/tutorial/part-five/#build-a-page-with-a-graphql-query">
+          GraphQL query.
+        </a>
+      </p>
+
+      <table class="table">
+        <thead className="thead-dark">
           <tr>
-            <th>relativePath</th>
-            <th>prettySize</th>
-            <th>extension</th>
-            <th>birthTime</th>
+            <th>Relative Path</th>
+            <th>Size</th>
+            <th>Extension</th>
+            <th>Last Modified</th>
           </tr>
         </thead>
         <tbody>
