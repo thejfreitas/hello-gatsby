@@ -6,8 +6,8 @@
 
 module.exports = {
   siteMetadata: {
-    title: `Gastby Hello World`,
-    description: `This is a hello-world website made in GatsbyJs and based on the tutorials provided by gatsbyjs.org`,
+    title: `Gatsby Hello World`,
+    description: `This is a website made in GatsbyJs and based on the tutorials provided by gatsbyjs.org`,
   },
   plugins: [
     `gatsby-transformer-remark`,
