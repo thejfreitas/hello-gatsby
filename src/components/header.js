@@ -11,7 +11,7 @@ export default props => {
       <Helmet>
         <html lang="en" />
         <meta charSet="utf-8" />
-        <title>{props.headerText} - Gatsby Hello World</title>
+        <title>{props.headerText} - Hello Gatsby</title>
       </Helmet>
       <Navigation />
 
