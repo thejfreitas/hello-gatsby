@@ -9,8 +9,7 @@ export default ({ data }) => {
         In this page is used a source plugin this this{" "}
         <a href="https://www.gatsbyjs.org/tutorial/part-five/#source-plugins">
           tutorial
-        </a>
-        in order to research on each file in the project and display in this
+        </a> in order to research on each file in the project and display in this
         page using{" "}
         <a href="https://www.gatsbyjs.org/tutorial/part-five/#build-a-page-with-a-graphql-query">
           GraphQL query.
