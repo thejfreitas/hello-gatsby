@@ -6,7 +6,7 @@ import {
   faTwitter,
 } from "@fortawesome/free-brands-svg-icons"
 
-export default () => {
+export default function Footer() {
   const year = new Date().getFullYear()
 
   return (

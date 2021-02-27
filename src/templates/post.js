@@ -2,7 +2,7 @@ import React from "react"
 import { graphql } from "gatsby"
 import Layout from "./layout"
 
-export default ({ data }) => {
+export default function Post({ data }) {
   const post = data.markdownRemark
   return (
     <Layout headerText={post.frontmatter.title}>

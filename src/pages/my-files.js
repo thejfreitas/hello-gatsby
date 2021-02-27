@@ -2,7 +2,7 @@ import React from "react"
 import { graphql } from "gatsby"
 import Layout from "../templates/layout"
 
-export default ({ data }) => {
+export default function MyFiles({ data }) {
   return (
     <Layout headerText="All project's files">
       <p>
