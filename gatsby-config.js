@@ -20,4 +20,5 @@ module.exports = {
     },
     `gatsby-plugin-react-helmet`,
   ],
+  pathPrefix: `hello-gatsby`,
 }
