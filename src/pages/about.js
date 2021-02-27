@@ -9,28 +9,27 @@ export default function About({ data }) {
       <p>{data.site.siteMetadata.description}</p>
 
       <p>
-        I started from the tutorial{" "}
+        This website has been made based on the tutorial{" "}
         <a href="https://www.gatsbyjs.org/tutorial/part-one/">
-          Get to Know Gatsby Building Blocks
+          Get to Know Gatsby Building Blocks.
         </a>{" "}
-        and then completing the following sections until the part eight.
+        provided by official's Gatsby documentation.
       </p>
 
       <p>
-        This website use{" "}
-        <a href="https://startbootstrap.com/themes/clean-blog/">Clean Blog</a>{" "}
-        Template which is based in{" "}
+        The layout has adapted from{" "}
+        <a href="https://startbootstrap.com/themes/clean-blog/">Clean Blog Template</a>{" "}
+        which is based on{" "}
         <a href="https://getbootstrap.com/">Bootstrap</a>
       </p>
 
       <p>
-        For icons{" "}
+        All icons has been implemented by{" "}
         <a href="https://github.com/FortAwesome/react-fontawesome">
           react-fontawesome
         </a>{" "}
-        that is a version of{" "}
-        <a href="https://fontawesome.com/icons?d=gallery">Font Awesome</a> to run
-        in a react environment.
+        which is a version of{" "}
+        <a href="https://fontawesome.com/icons?d=gallery">Font Awesome</a> running on the react environment.
       </p>
     </Layout>
   )
