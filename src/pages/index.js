@@ -1,6 +1,8 @@
 import React from "react"
-import Layout from "../templates/layout"
 import { Link, graphql } from "gatsby"
+import Layout from "../templates/layout"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import { faCalendarAlt } from "@fortawesome/free-solid-svg-icons"
 
 export default function Index({ data }) {
   return (
@@ -13,7 +15,7 @@ export default function Index({ data }) {
               <h2 className="post-title"><Link to={node.fields.slug}>{node.frontmatter.title}</Link></h2>
               <p className="post-subtitle">{node.excerpt}</p>
               <p className="post-meta">
-                Posted by <Link to={node.fields.slug}>Start Bootstrap</Link> on {node.frontmatter.date}
+                <FontAwesomeIcon icon={faCalendarAlt} /><span className="ms-2">Posted by <Link to={node.fields.slug}>Start Bootstrap</Link> on {node.frontmatter.date}</span>
               </p>
             </div>
           ))}

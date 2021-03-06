@@ -13,13 +13,14 @@ export default function Header({ headerText }) {
         <meta charSet="utf-8" />
         <title>{headerText} - Hello Gatsby</title>
       </Helmet>
+
       <Navigation />
 
       <header className="masthead" style={background}>
         <div className="overlay"></div>
         <div className="container">
           <div className="row">
-            <div className="col-lg-8 col-md-10 mx-auto">
+            <div className="col-md-10 mx-auto">
               <div className="site-heading position-relative">
                 <h1>{headerText}</h1>
               </div>
