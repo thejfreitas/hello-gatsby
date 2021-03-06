@@ -7,8 +7,8 @@ Pandas are really sweet.
 
 Here's a video of a panda eating sweets.
 
-<div class="embed-responsive embed-responsive-16by9">
-  <iframe className="embed-responsive-item" src="https://www.youtube.com/embed/4n0xNbfJLR8" allowfullscreen></iframe>
+<div class="ratio ratio-16x9">
+  <iframe src="https://www.youtube.com/embed/4n0xNbfJLR8" allowfullscreen></iframe>
 </div>
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed purus massa. Proin vel leo sodales est bibendum dictum a nec leo. Vestibulum dolor turpis, vehicula sed purus sed, luctus accumsan turpis. Proin velit velit, pharetra quis egestas vestibulum, eleifend laoreet leo. Duis tempor nisi eu sem eleifend, sit amet finibus urna tincidunt. Mauris ornare nulla ut nisi pretium vehicula. Praesent ligula purus, posuere non fringilla ut, porta id massa. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce quis pharetra nisi. Cras in ullamcorper nunc. Suspendisse ante est, mollis eu lobortis in, rhoncus eget felis. Sed placerat dui vel nulla mattis, sed condimentum sapien blandit. Quisque viverra augue ut tellus vehicula blandit eget eget enim.

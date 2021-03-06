@@ -6,8 +6,8 @@ date: "2017-08-21"
 Do Pandas eat bananas? Check out this short video that shows that yes! pandas do
 seem to really enjoy bananas!
 
-<div class="embed-responsive embed-responsive-16by9">
-  <iframe className="embed-responsive-item" src="https://www.youtube.com/embed/4SZl1r2O_bY" allowfullscreen></iframe>
+<div class="ratio ratio-16x9">
+  <iframe src="https://www.youtube.com/embed/4SZl1r2O_bY" allowfullscreen></iframe>
 </div>
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque scelerisque erat ut accumsan placerat. In rhoncus sit amet sapien non tristique. Phasellus maximus hendrerit facilisis. In iaculis congue est id interdum. Praesent congue pellentesque nibh, tristique euismod felis malesuada et. Integer vulputate porttitor mauris, in condimentum justo blandit quis. Fusce id pretium nisi, sit amet sollicitudin metus. Mauris est urna, maximus id commodo sit amet, molestie sed risus. Praesent sit amet ante risus. Aliquam fringilla neque eget ultricies ultricies. Nunc eu ante magna. Donec nibh nibh, laoreet quis dictum in, dapibus quis elit. Nam nec lacus bibendum, eleifend augue ac, semper lectus.
