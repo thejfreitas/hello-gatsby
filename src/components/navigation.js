@@ -8,34 +8,25 @@ export default function Navigation() {
         <Link className="navbar-brand" to="/">
           Hello Gatsby
         </Link>
-        <button
-          className="navbar-toggler navbar-toggler-right"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarResponsive"
-          aria-controls="navbarResponsive"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          Menu
-          <i className="fas fa-bars"></i>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
         </button>
-        <div className="collapse navbar-collapse" id="navbarResponsive">
-          <ul className="navbar-nav ml-auto">
+        <div className="collapse navbar-collapse justify-content-md-end" id="navbarResponsive">
+          <ul className="navbar-nav">
             <li className="nav-item">
               <Link className="nav-link" to="/">
                 Home
-              </Link>
+            </Link>
             </li>
             <li className="nav-item">
               <Link className="nav-link" to="/about/">
                 About
-              </Link>
+            </Link>
             </li>
             <li className="nav-item">
               <Link className="nav-link" to="/my-files/">
                 All Files
-              </Link>
+            </Link>
             </li>
           </ul>
         </div>
