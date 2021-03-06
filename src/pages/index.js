@@ -5,30 +5,22 @@ import { Link, graphql } from "gatsby"
 export default function Index({ data }) {
   return (
     <Layout headerText="Welcome">
-      <h1>
-        Hello Gatsby!{" "}
-        <small>
-          We have a total of {data.allMarkdownRemark.totalCount} posts
-        </small>
-      </h1>
-
-      {data.allMarkdownRemark.edges.map(({ node }) => (
-        <div key={node.id} className="post-preview">
-          <Link to={node.fields.slug}>
-            <h2 className="post-title">{node.frontmatter.title}</h2>
-          </Link>
-          <p className="post-subtitle">{node.excerpt}</p>
-          <p className="post-meta">
-            Posted by <Link to={node.fields.slug}>Start Bootstrap</Link> on
-            September 24, 2019
-          </p>
+      <h1>Hello Gatsby!</h1>
+      <h2 className="mb-5">We have a total of {data.allMarkdownRemark.totalCount} posts</h2>
+        <div className="row gy-1">
+          {data.allMarkdownRemark.edges.map(({ node }) => (
+            <div key={node.id} className="col-12 post-preview">
+              <h2 className="post-title"><Link to={node.fields.slug}>{node.frontmatter.title}</Link></h2>
+              <p className="post-subtitle">{node.excerpt}</p>
+              <p className="post-meta">
+                Posted by <Link to={node.fields.slug}>Start Bootstrap</Link> on {node.frontmatter.date}
+              </p>
+            </div>
+          ))}
         </div>
-      ))}
     </Layout>
   )
 }
-
-
 
 export const query = graphql`
   query {
@@ -39,7 +31,7 @@ export const query = graphql`
           id
           frontmatter {
             title
-            date(formatString: "DD MM, YYYY")
+            date(formatString: "MM/DD/YYYY")
           }
           fields {
             slug
