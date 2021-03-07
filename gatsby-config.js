@@ -20,6 +20,8 @@ module.exports = {
             options: {
               maxWidth: 856,
               linkImagesToOriginal: false,
+              withWebp: true,
+              withAvif: true,
             }
           }
         ]
