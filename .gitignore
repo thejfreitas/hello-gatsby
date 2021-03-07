@@ -71,3 +71,4 @@ yarn-error.log
 .gitconfig
 
 src/posts/img
+static/img
