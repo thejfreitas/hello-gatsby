@@ -6,7 +6,7 @@ export default function MyFiles({ data }) {
   return (
     <Layout headerText="All project's files">
       <p>
-        In this page is used a source plugin this this{" "}
+        In this page is used a source plugin in this{" "}
         <a href="https://www.gatsbyjs.org/tutorial/part-five/#source-plugins">
           tutorial
         </a> in order to research on each file in the project and display in this
