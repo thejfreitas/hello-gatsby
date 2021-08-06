@@ -33,7 +33,7 @@
   },
   "devDependencies": {
     "gh-pages": "^3.2.3",
-    "prettier": "^2.3.0"
+    "prettier": "^2.3.2"
   },
   "repository": {
     "type": "git",
