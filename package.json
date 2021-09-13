@@ -31,8 +31,8 @@
     "gatsby-source-filesystem": "^3.12.0",
     "gatsby-transformer-remark": "^4.9.0",
     "gh-pages": "^3.2.3",
-    "prettier": "^2.3.2",
-    "sass": "^1.38.0"
+    "prettier": "^2.4.0",
+    "sass": "^1.39.2"
   },
   "repository": {
     "type": "git",
