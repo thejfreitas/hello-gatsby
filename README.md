@@ -6,7 +6,7 @@ This is a website built in GatsbyJs and based on the tutorials provided by [gats
 
 The layout has been adapted from Bootstrap's [Clean Blog](https://startbootstrap.com/theme/clean-blog)
 
-Currently using [Bootstrap v5.0.0-beta2](https://getbootstrap.com/docs/5.0/getting-started/introduction)
+Currently using [Bootstrap v5](https://getbootstrap.com/docs/5.0/getting-started/introduction)
 
 You will find more information on [Gatsby's hello-world starter](https://github.com/gatsbyjs/gatsby-starter-hello-world/blob/master/README.md) documentation.
 
