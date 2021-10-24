@@ -10,28 +10,22 @@ module.exports = {
     description: `Hello gatsby is a website implementing some basic features provided by Gatsby as well adapting a bootstrap template into it.`,
   },
   plugins: [
+    `gatsby-plugin-image`,
     `gatsby-plugin-sharp`,
-    {
-      resolve: `gatsby-transformer-remark`,
-      options: {
-        plugins: [
-          {
-            resolve: `gatsby-remark-images`,
-            options: {
-              maxWidth: 856,
-              linkImagesToOriginal: false,
-              withWebp: true,
-              withAvif: true,
-            }
-          }
-        ]
-      },
-    },
+    `gatsby-transformer-sharp`,
+    `gatsby-transformer-remark`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `src`,
         path: `${__dirname}/src/`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `images`,
+        path: `${__dirname}/src/posts/img`,
       },
     },
     `gatsby-plugin-react-helmet`,
