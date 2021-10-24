@@ -3,34 +3,48 @@ import { Link } from "gatsby"
 
 export default function Navigation() {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+    <nav
+      className="navbar navbar-expand-lg navbar-light fixed-top"
+      id="mainNav"
+    >
       <div className="container">
         <Link className="navbar-brand" to="/">
           Hello Gatsby
         </Link>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+        <button
+          className="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarResponsive"
+          aria-controls="navbarResponsive"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span className="navbar-toggler-icon"></span>
         </button>
-        <div className="collapse navbar-collapse justify-content-md-end" id="navbarResponsive">
+        <div
+          className="collapse navbar-collapse justify-content-md-end"
+          id="navbarResponsive"
+        >
           <ul className="navbar-nav">
             <li className="nav-item">
               <Link className="nav-link" to="/">
                 Home
-            </Link>
+              </Link>
             </li>
             <li className="nav-item">
               <Link className="nav-link" to="/about/">
                 About
-            </Link>
+              </Link>
             </li>
             <li className="nav-item">
               <Link className="nav-link" to="/my-files/">
                 All Files
-            </Link>
+              </Link>
             </li>
           </ul>
         </div>
       </div>
     </nav>
   )
-} 
+}
