@@ -34,7 +34,7 @@
     "gatsby-transformer-remark": "^5.12.1",
     "gh-pages": "^3.2.3",
     "prettier": "^2.6.2",
-    "sass": "^1.50.0"
+    "sass": "^1.54.5"
   },
   "repository": {
     "type": "git",
